@@ -89,34 +89,24 @@
                         <viewLayoutGuide key="safeArea" id="zYJ-Sf-Hhj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Qma-JC-3r9" firstAttribute="top" secondItem="zYJ-Sf-Hhj" secondAttribute="top" id="bg_top"/>
-                            <constraint firstItem="Qma-JC-3r9" firstAttribute="leading" secondItem="zYJ-Sf-Hhj" secondAttribute="leading" id="bg_leading"/>
-                            <constraint firstItem="zYJ-Sf-Hhj" firstAttribute="trailing" secondItem="Qma-JC-3r9" secondAttribute="trailing" id="bg_trailing"/>
-                            <constraint firstItem="zYJ-Sf-Hhj" firstAttribute="bottom" secondItem="Qma-JC-3r9" secondAttribute="bottom" id="bg_bottom"/>
-                            <constraint firstItem="doH-iz-u9Q" firstAttribute="top" secondItem="zYJ-Sf-Hhj" secondAttribute="top" constant="60" id="logo_top"/>
-                            <constraint firstItem="doH-iz-u9Q" firstAttribute="centerX" secondItem="zYJ-Sf-Hhj" secondAttribute="centerX" id="logo_centerX"/>
-                            <constraint firstItem="doH-iz-u9Q" firstAttribute="width" secondItem="zYJ-Sf-Hhj" secondAttribute="width" multiplier="0.6" id="logo_width"/>
-                            <constraint firstItem="doH-iz-u9Q" firstAttribute="height" secondItem="doH-iz-u9Q" secondAttribute="width" multiplier="0.5" id="logo_height_ratio"/>
-                            <constraint firstItem="yIc-wX-m62" firstAttribute="top" secondItem="doH-iz-u9Q" secondAttribute="bottom" constant="12" id="hook_top"/>
-                            <constraint firstItem="yIc-wX-m62" firstAttribute="centerX" secondItem="zYJ-Sf-Hhj" secondAttribute="centerX" id="hook_centerX"/>
-                            <constraint firstItem="gDn-Ob-Azq" firstAttribute="top" secondItem="yIc-wX-m62" secondAttribute="bottom" constant="24" id="welcome_top"/>
-                            <constraint firstItem="gDn-Ob-Azq" firstAttribute="centerX" secondItem="zYJ-Sf-Hhj" secondAttribute="centerX" id="welcome_centerX"/>
-                            <constraint firstItem="gDn-Ob-Azq" firstAttribute="leading" secondItem="zYJ-Sf-Hhj" secondAttribute="leading" constant="32" id="welcome_leading"/>
-                            <constraint firstItem="zYJ-Sf-Hhj" firstAttribute="trailing" secondItem="gDn-Ob-Azq" secondAttribute="trailing" constant="32" id="welcome_trailing"/>
-                            <constraint firstItem="NH4-6g-TrH" firstAttribute="top" secondItem="gDn-Ob-Azq" secondAttribute="bottom" constant="32" id="email_top"/>
-                            <constraint firstItem="NH4-6g-TrH" firstAttribute="leading" secondItem="zYJ-Sf-Hhj" secondAttribute="leading" constant="40" id="email_leading"/>
-                            <constraint firstItem="zYJ-Sf-Hhj" firstAttribute="trailing" secondItem="NH4-6g-TrH" secondAttribute="trailing" constant="40" id="email_trailing"/>
-                            <constraint firstItem="NH4-6g-TrH" firstAttribute="height" constant="50" id="email_height"/>
-                            <constraint firstItem="URf-0M-i7K" firstAttribute="top" secondItem="NH4-6g-TrH" secondAttribute="bottom" constant="16" id="password_top"/>
-                            <constraint firstItem="URf-0M-i7K" firstAttribute="leading" secondItem="NH4-6g-TrH" secondAttribute="leading" id="password_leading"/>
-                            <constraint firstItem="URf-0M-i7K" firstAttribute="trailing" secondItem="NH4-6g-TrH" secondAttribute="trailing" id="password_trailing"/>
-                            <constraint firstItem="URf-0M-i7K" firstAttribute="height" constant="50" id="password_height"/>
-                            <constraint firstItem="eby-TF-63g" firstAttribute="top" secondItem="URf-0M-i7K" secondAttribute="bottom" constant="24" id="login_top"/>
-                            <constraint firstItem="eby-TF-63g" firstAttribute="leading" secondItem="URf-0M-i7K" secondAttribute="leading" id="login_leading"/>
-                            <constraint firstItem="eby-TF-63g" firstAttribute="trailing" secondItem="URf-0M-i7K" secondAttribute="trailing" id="login_trailing"/>
-                            <constraint firstItem="eby-TF-63g" firstAttribute="height" constant="50" id="login_height"/>
-                            <constraint firstItem="uTr-mv-7OS" firstAttribute="top" secondItem="eby-TF-63g" secondAttribute="bottom" constant="16" id="signup_top"/>
-                            <constraint firstItem="uTr-mv-7OS" firstAttribute="centerX" secondItem="zYJ-Sf-Hhj" secondAttribute="centerX" id="signup_centerX"/>
+                            <constraint firstItem="doH-iz-u9Q" firstAttribute="centerX" secondItem="Qma-JC-3r9" secondAttribute="centerX" id="016-md-ZoP"/>
+                            <constraint firstItem="doH-iz-u9Q" firstAttribute="centerX" secondItem="gDn-Ob-Azq" secondAttribute="centerX" id="9RI-PY-Yx2"/>
+                            <constraint firstItem="uTr-mv-7OS" firstAttribute="top" secondItem="eby-TF-63g" secondAttribute="bottom" constant="16" id="Ad8-Hu-FJY"/>
+                            <constraint firstItem="Qma-JC-3r9" firstAttribute="leading" secondItem="aAt-fo-BfI" secondAttribute="leading" id="C3z-qU-ixT"/>
+                            <constraint firstItem="zYJ-Sf-Hhj" firstAttribute="trailing" secondItem="Qma-JC-3r9" secondAttribute="trailing" id="Dwb-0M-3H0"/>
+                            <constraint firstItem="doH-iz-u9Q" firstAttribute="centerX" secondItem="uTr-mv-7OS" secondAttribute="centerX" id="K3R-ur-eEJ"/>
+                            <constraint firstItem="doH-iz-u9Q" firstAttribute="bottom" secondItem="yIc-wX-m62" secondAttribute="bottom" id="NV4-qX-4oB"/>
+                            <constraint firstItem="URf-0M-i7K" firstAttribute="top" secondItem="NH4-6g-TrH" secondAttribute="bottom" constant="36" id="P3D-vU-inw"/>
+                            <constraint firstItem="doH-iz-u9Q" firstAttribute="centerX" secondItem="NH4-6g-TrH" secondAttribute="centerX" id="Qaw-Om-Kvh"/>
+                            <constraint firstItem="doH-iz-u9Q" firstAttribute="centerX" secondItem="eby-TF-63g" secondAttribute="centerX" id="SRn-dI-O6E"/>
+                            <constraint firstItem="eby-TF-63g" firstAttribute="top" secondItem="URf-0M-i7K" secondAttribute="bottom" constant="70" id="X4I-UW-YrY"/>
+                            <constraint firstAttribute="bottom" secondItem="Qma-JC-3r9" secondAttribute="bottom" id="XVd-w8-p6o"/>
+                            <constraint firstItem="doH-iz-u9Q" firstAttribute="centerX" secondItem="URf-0M-i7K" secondAttribute="centerX" id="YRP-F1-oLx"/>
+                            <constraint firstItem="gDn-Ob-Azq" firstAttribute="top" secondItem="doH-iz-u9Q" secondAttribute="bottom" constant="48" id="bHv-If-NH2"/>
+                            <constraint firstItem="uTr-mv-7OS" firstAttribute="leading" secondItem="zYJ-Sf-Hhj" secondAttribute="leading" constant="117" id="ftH-6z-npd"/>
+                            <constraint firstItem="doH-iz-u9Q" firstAttribute="centerX" secondItem="yIc-wX-m62" secondAttribute="centerX" id="hUZ-gn-NZl"/>
+                            <constraint firstItem="doH-iz-u9Q" firstAttribute="top" secondItem="Qma-JC-3r9" secondAttribute="top" id="jyx-BJ-1PT"/>
+                            <constraint firstItem="zYJ-Sf-Hhj" firstAttribute="bottom" secondItem="uTr-mv-7OS" secondAttribute="bottom" constant="110" id="tKo-KD-eTR"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ps5-is-rPV"/>
